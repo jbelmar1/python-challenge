@@ -2,7 +2,8 @@ import os
 import csv
 
 #Setting path for csv file
-file = r"C:\Users\jobel\OneDrive\Documents\UM\python-challenge\PyBank\Resources\budget_data.csv"
+#file = r"C:\Users\jobel\OneDrive\Documents\UM\python-challenge\PyBank\Resources\budget_data.csv"
+file = "./Resouces/budget_data.csv"
 #Opening in read mode and storing as a CSV file
 with open(file, 'r') as csvfile:
     csv_reader = csv.reader(csvfile, delimiter=',')
